@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yash Agency</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>WELCOME TO YASH AGENCY</h1>
+  </div>
+  <div class="main-container">
+    <div class="logo-section">
+      <!-- Added your image here -->
+      <img src="images/WhatsApp Image 2025-01-26 at 10.42.39_532f4a34.jpg" alt="Yash Agency Image" class="logo">
+      <h2>YASHPAL SINGH THAKUR</h2>
+    </div>
+    <div class="buttons">
+      <!-- Hosting Star Button -->
+      <button onclick="openForm('https://docs.google.com/forms/d/e/1FAIpQLSdyyJVciqCWuYG6phtKi8elXBL6gPN3GYKMy6YYyEWu0SNkFw/viewform?usp=header')">
+        I WANT HOSTING STAR
+      </button>
+      <!-- WhatsApp Button -->
+      <button onclick="openWhatsApp()">I WANT TO PURCHASE A DIAMOND</button>
+      <!-- About Button -->
+      <button onclick="alert('About Section Coming Soon!')">ABOUT</button>
+    </div>
+  </div>
+  <script>
+    function openForm(url) {
+      window.open(url, '_blank');
+    }
+    function openWhatsApp() {
+      window.open('https://wa.me/7828709139', '_blank');
+    }
+  </script>
+</body>
+</html>
